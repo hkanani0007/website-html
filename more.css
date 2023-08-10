@@ -1,0 +1,355 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a {
+     background-color: black;
+
+
+}
+
+.a nav img {
+     float: left;
+     margin: 10px;
+     margin-left: 10px;
+     padding: 0;
+     width: 140px;
+     height: 60px;
+
+}
+
+.a nav ul {
+     display: inline-block;
+
+}
+
+.a nav ul li {
+     display: inline-block;
+     line-height: 80px;
+     margin-left: 80px;
+}
+
+.a nav ul li a {
+     padding: 30px;
+     color: red;
+     /* margin: 50px; */
+     /* display: inline-block; */
+     text-decoration: none;
+
+}
+
+.a nav ul li a:hover {
+     border-bottom: 5px solid white;
+     color: white;
+     background-color: rgba(240, 29, 5, 0.357);
+     box-shadow:rgba(253, 2, 2, 0.778) 5px 5px 10px;
+
+}
+
+#input {
+     padding: 5px;
+     width: 250px;
+     margin-left: 100px;
+     text-align: center;
+     /* float: right; */
+
+}
+
+.a nav button {
+     margin-left: 30px;
+     padding: 10px;
+     background-color: red;
+     color: black;
+}
+.a nav button a{
+     color: black;
+     text-decoration: none;
+}
+.a nav button:hover {
+     color: white;
+     background-color: rgba(255, 0, 0, 0.257);
+     box-shadow:rgba(253, 2, 2, 0.778) 5px 5px 10px;
+}
+
+.a nav button a:hover {
+     color: white;
+     background-color: rgba(255, 0, 0, 0.257);
+     box-shadow:rgba(253, 2, 2, 0.778) 5px 5px 10px;
+}
+
+.b {
+     margin-top: 3px;
+     color: red;
+     width: 17%;
+     height: 500px;
+     background-color: black;
+     float: left;
+}
+
+.b nav ul {
+     list-style-type: none;
+
+}
+
+.b nav ul li {
+     padding: 50px;
+     text-align: center;
+}
+
+.b nav ul li a {
+     padding: 50px;
+     color: red;
+     text-decoration: none;
+}
+
+.b nav ul li a:hover {
+     color: white;
+     background-color: rgba(255, 0, 0, 0.396);
+     border-bottom: 5px groove white;
+     box-shadow:rgba(253, 2, 2, 0.778) 5px 5px 10px;
+}
+
+article {
+     padding: 50px;
+     background-image: linear-gradient(rgba(249, 244, 244, 0.848), rgba(244, 234, 234, 0.115)), url('/img/collection.avif');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     margin-top: 3px;
+     overflow:auto;
+     height: 500px;
+}
+
+article h1 {
+     border-bottom: 5px solid black;
+     font-size: 40px;
+     color: red;
+     text-align: center;
+}
+
+article p img {
+     width: 100%;
+     height: 500px;
+}
+
+table,
+th,
+td {
+     /* color:black; */
+     border: 3px solid black;
+     border-collapse: collapse;
+     text-align: center;
+     font-size: 30px;
+}
+
+#img img{
+     width: 100%;
+     height: 110px;
+}
+tr:hover{
+     background-color:rgba(0, 0, 0, 0.261);
+     border-bottom: 8px groove red;
+     box-shadow:rgba(253, 2, 2, 0.778) 5px 5px 10px;
+     /* transform: scale(1.1); 
+     cursor: zoom-out; */
+}
+
+#Gallery p {
+     padding: 20px;
+     float: right;
+     width: 50%;
+     height: 400px;
+}
+footer{
+     padding: 40px;
+     margin-top: 3px;
+     color:rgba(255, 0, 0, 0.441);
+     background-color: black;
+     border-top: 9px solid red;
+}
+footer #fo{
+     display: flex;
+}
+footer #fo .div1{
+     margin-left: 200px;
+     
+}
+footer #fo .div1 h1{
+     color: white;
+     border-bottom: 3px solid red;
+}
+.c{
+     background-image: linear-gradient(rgba(249, 244, 244, 0.848), rgba(244, 234, 234, 0.115)), url('/img/collection.avif');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     height: 1000px;
+}
+
+#hk{
+     /* background-color: rgb(255, 254, 254); */
+     padding: 50px;
+}
+#hkg img{
+     border-bottom: 15px groove black;
+     border-radius: 200px;
+} 
+/* #hkg img:hover{
+     opacity: 1.6;
+    transform: scale(1.2);
+    cursor: zoom-out;
+    transition:900ms;
+} */
+#hkg{
+     border-radius: 230px;
+     width: 30%;
+     height: 500px;
+     float: left;
+
+}
+#kh{
+     margin-top: 30px;
+     padding: 50px;
+     width: 70%;
+     height: 500px;
+     /* display: flex; */
+     float:left;
+}
+#kh h1{
+     border-bottom: 5px solid black;
+     font-size: 40px;
+     color: red;
+}
+#km{
+     padding: 20px;
+}
+#mk{
+     padding: 50px;
+     width:50%;
+     /* display: flex; */
+     float:left;
+}
+#mk h1{
+     border-bottom: 5px solid black;
+     font-size: 40px;
+     color: red;
+}
+.gallery{
+          background-image: linear-gradient(rgba(249, 244, 244, 0.848), rgba(244, 234, 234, 0.115)), url('/img/collection.avif');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          height: 2000px;
+          
+}
+.gallery #ery{
+     padding: 50px;
+     height: 400px;
+
+}
+#vid{
+     float: left;
+     display: flex;
+     padding-right: 120px;
+     border-top-left-radius: 50px;
+}
+#eo{
+     padding-left: 100px;
+     border-bottom-right-radius: 50px;
+}
+#i{
+     padding: 50px;
+}
+#m img{
+   width: 600px;
+     height: 400px;
+     float: left;
+     border-top-left-radius: 50px;
+     /* border-bottom-right-radius: 50px; */
+}
+#g img{
+     padding-left: 100px;
+     width: 720px;
+     height:400px;
+     border-bottom-right-radius: 50px;
+}
+#zor{
+     padding-left: 50px;
+     height: 500px;
+}
+#z img{
+     width: 32%;
+     float: left;
+     border-top-left-radius: 50px;
+}
+#o img{
+     padding-left: 10px;
+     width: 32%;
+     height: 445px;
+     float: left;
+
+}
+#r img{
+     padding-left: 10px;
+     width: 32%;
+     height: 445px;
+     float: left;
+     border-bottom-right-radius: 50px;
+}
+#twyl{
+     padding-left: 50px;
+     height: 500px;
+}
+#t img{
+      width: 24%;
+      height: 400px;
+      float: left;
+      border-top-left-radius: 50px;
+}
+#w img{
+     width: 24%;
+     height: 400px;
+     float: left;
+     padding-left: 5px;
+}
+#y img{
+     width: 24%;
+     height: 400px;
+     float: left;
+     padding-left: 5px;
+}
+#l img{
+     width: 24%;
+     height: 400px;
+     float: left;
+     padding-left: 5px;
+     border-bottom-right-radius: 50px;
+}
+.contact{
+         background-image: linear-gradient(rgba(249, 244, 244, 0.848), rgba(244, 234, 234, 0.115)), url('/img/collection.avif');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          height: 500px;
+}
+form{
+     
+     color: white;
+     margin: 30px;
+     padding: 80px;
+     background-color: rgba(5, 5, 5, 0.543);
+}
+#nput{
+     float: left;
+}
+#map iframe{
+     
+     padding-left: 30px;
+}
